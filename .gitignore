@@ -11,3 +11,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+#all coverage files
+/coverage/*
