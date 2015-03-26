@@ -7,6 +7,7 @@ gem 'rails', '4.2.0'
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'foundation-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -25,7 +26,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'faye'
 gem 'carrierwave'
 gem 'cloudinary'
+
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-instagram'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
