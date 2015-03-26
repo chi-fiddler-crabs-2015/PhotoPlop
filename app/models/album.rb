@@ -2,6 +2,7 @@ class Album < ActiveRecord::Base
   belongs_to :creator, class_name: 'User'
   has_many :images, :dependent => :destroy
   has_many :collaborators_albums, :dependent => :destroy
+  has_many :collaborators, through: :collaborators_albums
 
   validates :title, :vanity_url, :creator, :permissions, presence: true
   validates :vanity_url, uniqueness: true
