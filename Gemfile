@@ -35,8 +35,8 @@ gem 'omniauth-instagram'
 gem 'coveralls', require: false
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'thin'
-gem 'private_pub'
+gem 'puma'
+gem "faye-websocket"
 # Use Unicorn as the app server
 # gem 'unicorn'
 
