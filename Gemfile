@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'faye'
 gem 'carrierwave'
-gem 'cloudinary'
+gem 'cloudinary', '~> 1.0.83'
 gem 'travis'
 gem 'devise'
 gem 'omniauth'
