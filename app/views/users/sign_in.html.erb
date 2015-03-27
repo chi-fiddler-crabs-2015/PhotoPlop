@@ -8,9 +8,7 @@
 
 <h1>THIS IS A SIGNIN FORM</h1>
 <%= form_for :user do |f| %>
-  <% if @errors %>
-    <%= @errors %>
-  <% end %>
+  <%= render "shared/errors" %>
 
   <%= f.label :username %>
   <%= f.text_field :username %>
