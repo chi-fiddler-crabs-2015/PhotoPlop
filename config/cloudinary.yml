@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: photoplop
+  api_key: '895538712266372'
+  api_secret: tVK5HZA-k5So6QlSFsaXxW7Feas
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: photoplop
+  api_key: '895538712266372'
+  api_secret: tVK5HZA-k5So6QlSFsaXxW7Feas
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: photoplop
+  api_key: '895538712266372'
+  api_secret: tVK5HZA-k5So6QlSFsaXxW7Feas
+  enhance_image_tag: true
+  static_image_support: false

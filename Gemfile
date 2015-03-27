@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'faye'
 gem 'carrierwave'
 gem 'cloudinary'
-
+gem 'travis'
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-twitter'
@@ -34,14 +34,17 @@ gem 'omniauth-facebook'
 gem 'omniauth-instagram'
 
 gem 'figaro'
+gem 'coveralls', require: false
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'thin'
+gem 'private_pub'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'ffaker'
 
 group :development, :test do
   gem 'rspec'
@@ -49,7 +52,6 @@ group :development, :test do
 end
 
 group :test do
-  gem 'faker'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers'
   gem 'capybara'
